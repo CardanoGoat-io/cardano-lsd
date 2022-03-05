@@ -54,5 +54,8 @@
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node"
+  },
+  "dependencies": {
+    "gsap": "^3.9.1"
   }
 }
