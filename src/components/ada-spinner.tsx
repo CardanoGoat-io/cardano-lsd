@@ -1,14 +1,23 @@
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
 
-interface Props {
+interface SpinnerStartInfo {
 	id: string,
 	color: string,
 	startDelay: number,
 	durationBeforeRepeat: number
 }
 
-const adaAn = ({ id, color, startDelay, durationBeforeRepeat }: Props) => {
+interface SpinnerInfo {
+	id: string,
+    classNames: Array<string>,
+	color: string,
+	startDelay: number,
+	durationBeforeRepeat: number,
+    addStyle?: Object
+}
+
+const adaAn = ({ id, color, startDelay, durationBeforeRepeat }: SpinnerStartInfo) => {
 	const rings = [
 		{ d: 396, r: 169, fill: color },
 		{ d: 678, r: 100, fill: color },
@@ -94,16 +103,19 @@ const adaAn = ({ id, color, startDelay, durationBeforeRepeat }: Props) => {
   })
 }
 
-export const AdaSpinner = ({ id, color, startDelay, durationBeforeRepeat }: Props) => {
+export const AdaSpinner = ({ id, classNames, color, startDelay, durationBeforeRepeat, addStyle = {display: "flex !important", width: "100% !important", height: "100% !important", margin: "5px !important", padding: "5px !important"} }: SpinnerInfo) => {
 	useEffect(() => {
 		adaAn({ id, color, startDelay, durationBeforeRepeat })
 	},[]);
 	return (
-	<div className="">
-				<div id={id} className="">
+	<><div style={addStyle}>
+				<div 
+                    id={id} 
+                    className={classNames.join(" ")}
+                    style={{ display: "flex !important", width: "100% !important", height: "100% !important", margin: "0px !important", padding: "0px !important" }}>
 				</div>
 			<span className="">Loading...</span>
-	</div>
+	</div></>
 )
 }
 export default AdaSpinner
