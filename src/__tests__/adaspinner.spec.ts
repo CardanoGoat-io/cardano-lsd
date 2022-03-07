@@ -20,10 +20,6 @@ test('Test for only set Id', () => {
   expect(spinnerOnlySetId.duration).not.toBeUndefined();
 });
 
-// test('Fail if no id included', () => {
-//   expect(new CardaNostraAdaSpinner({color:"red"})).toThrowError()
-// });
-
 test('Test for only set color', () => {
   expect(spinnerOnlySetColor.htmlId).not.toBeUndefined();
   expect(spinnerOnlySetColor.color).toEqual("pink");
@@ -110,8 +106,3 @@ test('Ada Spinner Added', async() => {
   const isWrapped = document.getElementById("carda-nostra-svg");
   expect(isWrapped).not.toBeNull();
 });
-
-// test('Ada Spinner Svg on Screen', () => {
-//   const isSVG = document.getElementById("");
-//   expect(isSVG).not.toBeNull();
-// });
