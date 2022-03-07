@@ -3,7 +3,9 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/Cardano_G_O_A_T?style=social)](https://twitter.com/Cardano_G_O_A_T)
 
 
-Reusable cardano frontend components focused on animations. (React,...) With the whole idea of making everything built on cardano, way more visually appealing.
+Reusable cardano frontend components focused on animations. (Frontend Agnostic) With the whole idea of making everything built on cardano, way more visually appealing.
+
+Each component could change in it's use. Better documentation is being created.
 
 ## Must Know Dependencies
 ### Must adhere to licensing requirements in internal packages. https://greensock.com/licensing/
@@ -30,7 +32,7 @@ Please respect the copyright.
 
 ### Features
 
-- [ ] React Functional Components
+- [X] CardaNostraAdaSpinner
 - [ ] React Class Components
 - [ ] Cardano DEFI Components
 - [ ] Vue Components
@@ -45,22 +47,60 @@ Install the library using [npm](https://docs.npmjs.com/):
 
 ### Documentation
 
-https://cardano-lsd.readthedocs.io/en/latest/
+
 
 ### Examples
 
-#### animated cardano spinner react functional
+#### animated cardano spinner
 
 ```javascript
-To be edited
-import { cardano-lsd } from "cardano-lsd"
+import React, { useEffect } from "react";
+import "./App.css";
+import { CardaNostraAdaSpinner } from "cardano-lsd";
+const App = () => {
+  let spinner;
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    spinner = new CardaNostraAdaSpinner({id:"ada-spinning"});
+    spinner.attachSVG();
+  },[]);
+    return (
+      <div id="App">
+        
+      <div style={{display: "flex", margin: "0px", padding: "0px", width: "100%", backgroundColor: "pink", opacity: "50%" }} id={"ada-spinning"}></div>
+      </div>
+    );
+}
+
+export default App;
+```
+
+```javascript
+
+import { CardaNostraAdaSpinner } from "cardano-lsd";
+
+spinner = new CardaNostraAdaSpinner({id:"ada-spinning", color:"", delay:0.2, duration:4});
+spinner.attachSVG();
+
+<div id={"ada-spinning"}></div>
+
 ```
 
 
 -----------------
 
 ### Development
+Clone from git
+``git clone https://github.com/CardanoGoat-io/cardano-lsd.git
 
+Install dependencies:
+``npm install
+
+Build:
+``npm run build
+
+Build package with watcher:
+``npm start
 #### Workspace setup
 
 Clone the repository:
@@ -69,35 +109,28 @@ Clone the repository:
 
 #### Test
 
-cardano-lsd uses [package]() for unit testing.
+cardano-lsd uses [package](jest, jsdom, pupeteer) for unit testing.
 
 Run all tests:
-``
+``npm test
 
-Run all tests in a specific test file:
-``
-
-Run a specific test function:
-``
-
-Run a specific test function in a test file:
-``
 
 #### Test coverage
 
-We use [Package]() to calculate the test coverage.
+We use [Package](jest) to calculate the test coverage.
 
-
+Run all tests and get coverage:
+``npm run coverage
 ### Style guidelines
 
 
 ### Docs generation
 
-The majority of package documentation is created by the docstrings in python files. 
+<!-- The majority of package documentation is created by the docstrings in python files. 
 We use [sphinx](https://www.sphinx-doc.org/en/master/) with 
 [Read the Docs theme](https://sphinx-rtd-theme.readthedocs.io/en/stable/) to generate the 
 html pages.
 
 Build docs and open the docs in browser: 
 
-`make docs`
+`make docs` -->
