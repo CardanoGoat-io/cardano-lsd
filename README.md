@@ -1,6 +1,10 @@
 # cardano-lsd 
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/Cardano_G_O_A_T?style=social)](https://twitter.com/Cardano_G_O_A_T)
+[![npm peer dependency version](https://img.shields.io/npm/dependency-version/cardano-lsd/peer/gsap)](https://greensock.com/gsap/)
+[![NPM](https://img.shields.io/npm/l/cardano-lsd)](https://github.com/CardanoGoat-io/cardano-lsd/blob/main/LICENSE)
+[![Discord](https://img.shields.io/discord/929963273741295696.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/hC5Z9bsAPd)
+[![GitHub Release Date](https://img.shields.io/github/release-date/CardanoGoat-io/cardano-lsd?style=plastic)](https://github.com/CardanoGoat-io/cardano-lsd)
 
 
 Reusable cardano frontend components focused on animations. (Frontend Agnostic) With the whole idea of making everything built on cardano, way more visually appealing.
