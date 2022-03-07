@@ -1,7 +1,7 @@
 {
   "name": "cardano-lsd",
-  "version": "1.0.0",
-  "description": "Reusable cardano frontend components focused on animations. (React,...) With the whole idea of making everything built on cardano, way more visually appealing. ",
+  "version": "1.0.1",
+  "description": "Reusable cardano frontend components focused on animations. With the whole idea of making everything built on cardano, way more visually appealing. ",
   "main": "build/index.js",
   "module": "build/index.es.js",
   "jsnext:main": "build/index.es.js",
@@ -42,7 +42,10 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-typescript2": "^0.31.2",
     "ts-jest": "^27.1.3",
-    "typescript": "^4.6.2"
+    "typescript": "^4.6.2",
+    "jest-environment-node": "^27.5.1",
+    "puppeteer": "^13.4.1",
+    "expect-puppeteer": "^6.1.0"
   },
   "peerDependencies": {
     "gsap": "^3.9.1"
@@ -72,11 +75,6 @@
     }
   },
   "dependencies": {
-    "chalk": "^5.0.0",
-    "expect-puppeteer": "^6.1.0",
-    "gsap": "^3.9.1",
-    "jest-environment-node": "^27.5.1",
-    "mkdirp": "^1.0.4",
-    "puppeteer": "^13.4.1"
+    "gsap": "^3.9.1"
   }
 }
