@@ -134,7 +134,7 @@ export class CardaNostraAdaSpinner {
         }
       }
     });
-  };
+  }
 
   async attachSVG(){
     const container = document.getElementById(this._htmlId);

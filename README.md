@@ -1,11 +1,12 @@
 # cardano-lsd 
 
+[![npm version](https://img.shields.io/npm/v/cardano-lsd?style=plastic)](https://www.npmjs.com/package/cardano-lsd)
+[![GitHub Release Date](https://img.shields.io/github/release-date/CardanoGoat-io/cardano-lsd?style=plastic)](https://github.com/CardanoGoat-io/cardano-lsd)
 [![npm downloads](https://img.shields.io/npm/dw/cardano-lsd?style=plastic)](https://www.npmjs.com/package/cardano-lsd)
 [![npm peer dependency version](https://img.shields.io/npm/dependency-version/cardano-lsd/peer/gsap?style=plastic)](https://greensock.com/gsap/)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/cardanogoat-io/cardano-lsd?style=plastic)]()
 [![NPM](https://img.shields.io/npm/l/cardano-lsd?style=plastic)](https://github.com/CardanoGoat-io/cardano-lsd/blob/main/LICENSE)
-[![npm version](https://img.shields.io/npm/v/cardano-lsd?style=plastic)](https://www.npmjs.com/package/cardano-lsd)
-[![GitHub Release Date](https://img.shields.io/github/release-date/CardanoGoat-io/cardano-lsd?style=plastic)](https://github.com/CardanoGoat-io/cardano-lsd)
+
 <!-- [![Read the Docs](https://img.shields.io/readthedocs/cardano-lsd?style=plastic)](https://cardano-lsd.readthedocs.io/en/latest/) -->
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/Cardano_G_O_A_T?style=social)](https://twitter.com/Cardano_G_O_A_T)
