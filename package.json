@@ -10,7 +10,8 @@
     "start": "rollup -c -w",
     "test": "jest --watch",
     "coverage": "jest --coverage",
-    "make-badges": "istanbul-badges-readme --logo='jest'"
+    "make-badges": "istanbul-badges-readme --logo='jest'",
+    "all": "npm run build && npm run coverage && npm run make-badges"
   },
   "repository": {
     "type": "git",
