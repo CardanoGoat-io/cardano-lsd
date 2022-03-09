@@ -4,7 +4,6 @@
   "description": "Reusable cardano frontend components focused on animations. With the whole idea of making everything built on cardano, way more visually appealing. ",
   "main": "build/index.js",
   "module": "build/index.es.js",
-  "minified": "build/index.min.js",
   "jsnext:main": "build/index.es.js",
   "scripts": {
     "build": "rollup -c",
