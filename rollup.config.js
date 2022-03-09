@@ -16,37 +16,25 @@ export default {
       file: pkg.main,
       format: "cjs",
       exports: "named",
-      sourcemap: true,
-      plugins: [prettier({
-        parser: 'babel',
-        "semi": true,
-        "trailingComma": "none",
-        "singleQuote": true,
-        "printWidth": 80
-      })]
+      sourcemap: true
     },
     {
       file: pkg.module,
       format: "es",
       exports: "named",
-      sourcemap: true,
-      plugins: [prettier({
-        parser: 'babel',
-        "semi": true,
-        "trailingComma": "none",
-        "singleQuote": true,
-        "printWidth": 80
-      })]
-    },
-    {
-      file: pkg.minified,
-      format: "cjs",
-      exports: "named",
-      plugins: [terser()]
+      sourcemap: true
     }
   ],
   plugins: [
+    terser(),
     json(),
+    prettier({
+      parser: "babel",
+      "semi": true,
+      "trailingComma": "none",
+      "singleQuote": true,
+      "printWidth": 80
+    }),
     eslint(),
     external(),
     resolve(),
