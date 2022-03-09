@@ -1,6 +1,6 @@
 {
   "name": "cardano-lsd",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Reusable cardano frontend components focused on animations. With the whole idea of making everything built on cardano, way more visually appealing. ",
   "main": "build/index.js",
   "module": "build/index.es.js",
@@ -12,6 +12,8 @@
     "coverage": "jest --coverage",
     "make-badges": "istanbul-badges-readme --logo='jest'",
     "lint": "eslint . --ext .ts",
+    "extractor": "api-extractor run",
+    "changelog": "changelog 'cardano-lsd' all -m -c > ./CHANGELOG.md",
     "all": "npm run build && npm run coverage && npm run make-badges"
   },
   "repository": {
@@ -35,6 +37,9 @@
   "devDependencies": {
     "@babel/core": "^7.17.5",
     "@babel/preset-env": "^7.16.11",
+    "@microsoft/api-extractor": "^7.19.4",
+    "@microsoft/tsdoc": "^0.13.2",
+    "@microsoft/tsdoc-config": "^0.15.2",
     "@rollup/plugin-babel": "^5.3.1",
     "@rollup/plugin-commonjs": "^21.0.2",
     "@rollup/plugin-eslint": "^8.0.1",
@@ -46,7 +51,9 @@
     "@types/puppeteer": "^5.4.5",
     "@typescript-eslint/eslint-plugin": "^5.14.0",
     "@typescript-eslint/parser": "^5.14.0",
+    "changelog": "^1.4.2",
     "eslint": "^8.10.0",
+    "eslint-plugin-tsdoc": "^0.2.14",
     "expect-puppeteer": "^6.1.0",
     "istanbul-badges-readme": "^1.8.1",
     "jest": "^27.5.1",

@@ -8,6 +8,7 @@
     "allowJs": false,
     "strict": true,
     "declaration": true,
+    "declarationMap": true,
     "moduleResolution": "node",
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
