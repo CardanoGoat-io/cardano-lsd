@@ -1,8 +1,11 @@
-import typescript from "rollup-plugin-typescript2";
 import commonjs from "@rollup/plugin-commonjs";
-import external from "rollup-plugin-peer-deps-external";
-import resolve from "@rollup/plugin-node-resolve";
 import eslint from '@rollup/plugin-eslint';
+import external from "rollup-plugin-peer-deps-external";
+import json from '@rollup/plugin-json';
+import prettier from 'rollup-plugin-prettier';
+import { terser } from 'rollup-plugin-terser';
+import resolve from "@rollup/plugin-node-resolve";
+import typescript from "rollup-plugin-typescript2";
 
 import pkg from "./package.json";
 
@@ -13,16 +16,37 @@ export default {
       file: pkg.main,
       format: "cjs",
       exports: "named",
-      sourcemap: true
+      sourcemap: true,
+      plugins: [prettier({
+        parser: 'babel',
+        "semi": true,
+        "trailingComma": "none",
+        "singleQuote": true,
+        "printWidth": 80
+      })]
     },
     {
       file: pkg.module,
       format: "es",
       exports: "named",
-      sourcemap: true
+      sourcemap: true,
+      plugins: [prettier({
+        parser: 'babel',
+        "semi": true,
+        "trailingComma": "none",
+        "singleQuote": true,
+        "printWidth": 80
+      })]
+    },
+    {
+      file: pkg.minified,
+      format: "cjs",
+      exports: "named",
+      plugins: [terser()]
     }
   ],
   plugins: [
+    json(),
     eslint(),
     external(),
     resolve(),

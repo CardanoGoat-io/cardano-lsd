@@ -4,7 +4,7 @@
 [![GitHub Release Date](https://img.shields.io/github/release-date/CardanoGoat-io/cardano-lsd?style=plastic)](https://github.com/CardanoGoat-io/cardano-lsd)
 [![npm downloads](https://img.shields.io/npm/dw/cardano-lsd?style=plastic)](https://www.npmjs.com/package/cardano-lsd)
 [![npm peer dependency version](https://img.shields.io/npm/dependency-version/cardano-lsd/peer/gsap?style=plastic)](https://greensock.com/gsap/)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/cardanogoat-io/cardano-lsd?style=plastic)]()
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/cardanogoat-io/cardano-lsd?style=plastic)
 [![NPM](https://img.shields.io/npm/l/cardano-lsd?style=plastic)](https://github.com/CardanoGoat-io/cardano-lsd/blob/main/LICENSE)
 
 <!-- [![Read the Docs](https://img.shields.io/readthedocs/cardano-lsd?style=plastic)](https://cardano-lsd.readthedocs.io/en/latest/) -->
@@ -13,7 +13,7 @@
 [![Discord](https://img.shields.io/discord/929963273741295696.svg?style=plastic&label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/hC5Z9bsAPd)
 
 If youd like to show us some support to do this more often. You can send ADA or gifts to our ADA Handle
-[![ADA Handle](https://img.shields.io/badge/%24ADA%20Handle-%24nft--minter-brightgreen?style=plastic)]()
+![ADA Handle](https://img.shields.io/badge/%24ADA%20Handle-%24nft--minter-brightgreen?style=plastic)
 
 | Statements                  | Branches                | Functions                 | Lines             |
 | --------------------------- | ----------------------- | ------------------------- | ----------------- |
