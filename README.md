@@ -7,7 +7,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/cardanogoat-io/cardano-lsd?style=plastic)
 [![NPM](https://img.shields.io/npm/l/cardano-lsd?style=plastic)](https://github.com/CardanoGoat-io/cardano-lsd/blob/main/LICENSE)
 
-<!-- [![Read the Docs](https://img.shields.io/readthedocs/cardano-lsd?style=plastic)](https://cardano-lsd.readthedocs.io/en/latest/) -->
+[![Read the Docs](https://img.shields.io/readthedocs/cardano-lsd?style=plastic)](https://cardano-lsd.readthedocs.io/en/latest/)
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/Cardano_G_O_A_T?style=social)](https://twitter.com/Cardano_G_O_A_T)
 [![Discord](https://img.shields.io/discord/929963273741295696.svg?style=plastic&label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/hC5Z9bsAPd)
@@ -143,11 +143,11 @@ Run all tests and get coverage:
 
 ### Docs generation
 
-<!-- The majority of package documentation is created by the docstrings in python files. 
+The majority of package documentation is created by the docstrings in python files. 
 We use [sphinx](https://www.sphinx-doc.org/en/master/) with 
 [Read the Docs theme](https://sphinx-rtd-theme.readthedocs.io/en/stable/) to generate the 
 html pages.
 
 Build docs and open the docs in browser: 
 
-`make docs` -->
+`make docs`
