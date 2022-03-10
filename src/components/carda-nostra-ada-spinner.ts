@@ -150,4 +150,4 @@ export class CardaNostraAdaSpinner {
   }
 
 }
-export default CardaNostraAdaSpinner
+export default CardaNostraAdaSpinner;
