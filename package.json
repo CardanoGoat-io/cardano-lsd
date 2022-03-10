@@ -54,7 +54,6 @@
     "@types/puppeteer": "^5.4.5",
     "@typescript-eslint/eslint-plugin": "^5.14.0",
     "@typescript-eslint/parser": "^5.14.0",
-    "changelog": "^1.4.2",
     "eslint": "^8.10.0",
     "eslint-plugin-tsdoc": "^0.2.14",
     "expect-puppeteer": "^6.1.0",
