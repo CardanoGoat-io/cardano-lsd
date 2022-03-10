@@ -13,8 +13,10 @@
     "make-badges": "istanbul-badges-readme --logo='jest'",
     "lint": "eslint . --ext .ts",
     "extractor": "api-extractor run",
+    "extractWithLogs": "api-extractor run --diagnostics",
     "changelog": "changelog 'cardano-lsd' all -m -c > ./CHANGELOG.md",
-    "all": "npm run build && npm run coverage && npm run make-badges"
+    "markdown": "api-documenter markdown --input-folder ./temp --output-folder ./docs/markdown",
+    "all": "npm run build && npm run coverage && npm run make-badges && npm run changelog"
   },
   "repository": {
     "type": "git",
@@ -37,6 +39,7 @@
   "devDependencies": {
     "@babel/core": "^7.17.5",
     "@babel/preset-env": "^7.16.11",
+    "@microsoft/api-documenter": "^7.15.3",
     "@microsoft/api-extractor": "^7.19.4",
     "@microsoft/tsdoc": "^0.13.2",
     "@microsoft/tsdoc-config": "^0.15.2",
