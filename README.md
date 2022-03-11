@@ -147,4 +147,4 @@ html pages.
 
 Build docs and open the docs in browser: 
 
-`make docs`
+`make html`
