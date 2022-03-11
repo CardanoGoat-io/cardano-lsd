@@ -1,3 +1,22 @@
+1.0.3 / 2022-03-11
+==================
+
+  * Update README.md
+    changing make docs to make html
+  * Fixing requirements import from doc build fail
+  * Getting the document generation in order using tsdocs and apiextractor to markup and sphinx
+  * making automatic doc generation script pipeline
+  * playing with python doc generation
+  * mis spelled requirements.txt
+  * adding requirements to doc gen
+  * python doc build info
+  * Merge branch 'main' of github.com:CardanoGoat-io/cardano-lsd into main
+  * testing doc building
+  * Remove Changelog for bad dependencies
+  * Fixing generated documents
+  * Getting Documents generated from api extractor setup with markdown
+  * Adding Auto CHANGELOG generation and the framework for tsdocs
+
 1.0.2 / 2022-03-08
 ==================
 
