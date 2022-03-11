@@ -4,6 +4,8 @@
 
 ## CardaNostraAdaSpinner.duration property
 
+Get Animation Duration.
+
 <b>Signature:</b>
 
 ```typescript
@@ -11,3 +13,13 @@ get duration(): number;
 
 set duration(value: number);
 ```
+
+## Example
+
+
+```ts
+let spinner = new CardaNostraAdaSpinner({id="element-id", duration:10});
+const spinnerDuration = spinner.duration;
+// 10
+```
+

@@ -4,6 +4,8 @@
 
 ## CardaNostraAdaSpinner.attachSVG() method
 
+Attach SVG and run animation on CardaNostraAdaSpinner by Element Id.
+
 <b>Signature:</b>
 
 ```typescript
@@ -12,4 +14,17 @@ attachSVG(): Promise<void>;
 <b>Returns:</b>
 
 Promise&lt;void&gt;
+
+## Remarks
+
+This method attaches and animates the element.
+
+## Example
+
+
+```ts
+let spinner = new CardaNostraAdaSpinner({id="element-id"});
+// after page load attach svg to animate
+spinner.attachSVG();
+```
 

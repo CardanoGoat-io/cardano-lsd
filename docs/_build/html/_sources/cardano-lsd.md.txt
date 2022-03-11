@@ -4,9 +4,15 @@
 
 ## cardano-lsd package
 
+A library cardano-lsd frontend components and animations. For details, see [github](https://github.com/CardanoGoat-io/cardano-lsd)
+
+## Remarks
+
+The `cardano-lsd` defines the [CardaNostraAdaSpinner](./cardano-lsd.cardanostraadaspinner.md) class. To draw the spinner, call [attachSVG() function](./cardano-lsd.cardanostraadaspinner.attachsvg.md)<!-- -->.
+
 ## Classes
 
 |  Class | Description |
 |  --- | --- |
-|  [CardaNostraAdaSpinner](./cardano-lsd.cardanostraadaspinner.md) |  |
+|  [CardaNostraAdaSpinner](./cardano-lsd.cardanostraadaspinner.md) | Create a new ada spinner to attach to SVG. |
 

@@ -22,7 +22,7 @@ If youd like to show us some support to do this more often. You can send ADA or 
 
 Reusable cardano frontend components focused on animations. (Frontend Agnostic) With the whole idea of making everything built on cardano, way more visually appealing.
 
-Each component could change in it's use. Better documentation is being created.
+For more documentation please go to [Documents](https://cardano-lsd.readthedocs.io/en/latest/)
 
 ## Must Know Dependencies
 ### Must adhere to licensing requirements in internal packages. https://greensock.com/licensing/
@@ -50,11 +50,8 @@ Please respect the copyright.
 ### Features
 
 - [X] CardaNostraAdaSpinner
-- [ ] React Class Components
-- [ ] Cardano DEFI Components
-- [ ] Vue Components
-- [ ] Angular Components
-- [ ] Protocol proposal update
+- [ ] To be added
+
 
 ### Installation
 

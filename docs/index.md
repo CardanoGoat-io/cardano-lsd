@@ -8,5 +8,5 @@
 
 |  Package | Description |
 |  --- | --- |
-|  [cardano-lsd](./cardano-lsd.md) |  |
+|  [cardano-lsd](./cardano-lsd.md) | A library cardano-lsd frontend components and animations. For details, see [github](https://github.com/CardanoGoat-io/cardano-lsd) |
 

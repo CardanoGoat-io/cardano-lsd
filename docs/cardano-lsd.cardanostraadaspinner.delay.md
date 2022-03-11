@@ -4,6 +4,8 @@
 
 ## CardaNostraAdaSpinner.delay property
 
+Get Animation Delay.
+
 <b>Signature:</b>
 
 ```typescript
@@ -11,3 +13,13 @@ get delay(): number;
 
 set delay(value: number);
 ```
+
+## Example
+
+
+```ts
+let spinner = new CardaNostraAdaSpinner({id="element-id", delay:0.5});
+const spinnerDelay = spinner.delay;
+// 0.5
+```
+

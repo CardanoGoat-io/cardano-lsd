@@ -17,7 +17,7 @@
     "changelog": "changelog 'cardano-lsd' all -m -c > ./CHANGELOG.md",
     "markdown": "api-documenter markdown --input-folder ./temp --output-folder ./docs",
     "moveBuildDocs": "cp -r ./theDocFiles/* ./docs",
-    "all": "npm run build && npm run coverage && npm run make-badges && npm run changelog && npm run extractor && npm run markdown && npm run moveBuildDocs"
+    "all": "npm run build && npm run coverage && npm run make-badges && npm run changelog && npm run extractor && npm run markdown && npm run moveBuildDocs && cd docs && make html"
   },
   "repository": {
     "type": "git",

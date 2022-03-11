@@ -3,3 +3,6 @@ build/**
 cardano-lsd-**
 example
 .vscode
+dist/tsdoc-metadata.json
+etc/**
+temp/**
