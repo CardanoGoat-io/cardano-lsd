@@ -161,7 +161,7 @@
   },
   "kind": "Package",
   "canonicalReference": "cardano-lsd!",
-  "docComment": "",
+  "docComment": "/**\n * A library cardano-lsd frontend components and animations. For details, see {@link https://github.com/CardanoGoat-io/cardano-lsd | github}\n *\n * @remarks\n *\n * The `cardano-lsd` defines the {@link CardaNostraAdaSpinner} class. To draw the spinner, call {@link CardaNostraAdaSpinner.attachSVG | attachSVG() function}.\n *\n * @packageDocumentation\n */\n",
   "name": "cardano-lsd",
   "members": [
     {
@@ -172,7 +172,7 @@
         {
           "kind": "Class",
           "canonicalReference": "cardano-lsd!CardaNostraAdaSpinner:class",
-          "docComment": "",
+          "docComment": "/**\n * Create a new ada spinner to attach to SVG.\n *\n * @remarks\n *\n * This method is part of the cardano-lsd animation library.\n *\n * @typeParam spinnerSettings - \n *\n * @returns A new CardaNostraAdaSpinner\n *\n * @public\n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -182,57 +182,6 @@
           "releaseTag": "Public",
           "name": "CardaNostraAdaSpinner",
           "members": [
-            {
-              "kind": "Method",
-              "canonicalReference": "cardano-lsd!CardaNostraAdaSpinner#_animate:member(1)",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "protected _animate(svgContainer: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "SVGSVGElement",
-                  "canonicalReference": "!SVGSVGElement:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "): "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Promise",
-                  "canonicalReference": "!Promise:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": "<void>"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isOptional": false,
-              "isStatic": false,
-              "returnTypeTokenRange": {
-                "startIndex": 3,
-                "endIndex": 5
-              },
-              "releaseTag": "Public",
-              "overloadIndex": 1,
-              "parameters": [
-                {
-                  "parameterName": "svgContainer",
-                  "parameterTypeTokenRange": {
-                    "startIndex": 1,
-                    "endIndex": 2
-                  }
-                }
-              ],
-              "name": "_animate"
-            },
             {
               "kind": "Constructor",
               "canonicalReference": "cardano-lsd!CardaNostraAdaSpinner:constructor(1)",
@@ -245,7 +194,7 @@
                 {
                   "kind": "Reference",
                   "text": "spinnerSetting",
-                  "canonicalReference": "cardano-lsd!~spinnerSetting:interface"
+                  "canonicalReference": "cardano-lsd!~spinnerSetting:type"
                 },
                 {
                   "kind": "Content",
@@ -267,7 +216,7 @@
             {
               "kind": "Method",
               "canonicalReference": "cardano-lsd!CardaNostraAdaSpinner#attachSVG:member(1)",
-              "docComment": "",
+              "docComment": "/**\n * Attach SVG and run animation on CardaNostraAdaSpinner by Element Id.\n *\n * @remarks\n *\n * This method attaches and animates the element.\n *\n * @example\n * ```ts\n * let spinner = new CardaNostraAdaSpinner({id=\"element-id\"});\n * // after page load attach svg to animate\n * spinner.attachSVG();\n * ```\n *\n * @eventProperty @public\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -301,7 +250,7 @@
             {
               "kind": "Property",
               "canonicalReference": "cardano-lsd!CardaNostraAdaSpinner#color:member",
-              "docComment": "",
+              "docComment": "/**\n * Get Element Color.\n *\n * @example\n * ```ts\n * let spinner = new CardaNostraAdaSpinner({id=\"element-id\", color:\"green\"});\n * const spinnerColor = spinner.color;\n * // green\n * ```\n *\n * @readonly\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -332,7 +281,7 @@
             {
               "kind": "Property",
               "canonicalReference": "cardano-lsd!CardaNostraAdaSpinner#delay:member",
-              "docComment": "",
+              "docComment": "/**\n * Get Animation Delay.\n *\n * @example\n * ```ts\n * let spinner = new CardaNostraAdaSpinner({id=\"element-id\", delay:0.5});\n * const spinnerDelay = spinner.delay;\n * // 0.5\n * ```\n *\n * @readonly\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -363,7 +312,7 @@
             {
               "kind": "Property",
               "canonicalReference": "cardano-lsd!CardaNostraAdaSpinner#duration:member",
-              "docComment": "",
+              "docComment": "/**\n * Get Animation Duration.\n *\n * @example\n * ```ts\n * let spinner = new CardaNostraAdaSpinner({id=\"element-id\", duration:10});\n * const spinnerDuration = spinner.duration;\n * // 10\n * ```\n *\n * @readonly\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -394,7 +343,7 @@
             {
               "kind": "Property",
               "canonicalReference": "cardano-lsd!CardaNostraAdaSpinner#htmlId:member",
-              "docComment": "",
+              "docComment": "/**\n * Get Element Id.\n *\n * @example\n * ```ts\n * let spinner = new CardaNostraAdaSpinner({id=\"element-id\"});\n * const spinnerId = spinner.htmlId;\n * ```\n *\n * @readonly\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",

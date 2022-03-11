@@ -4,28 +4,22 @@
 
 ```ts
 
-// @public (undocumented)
+// @public
 export class CardaNostraAdaSpinner {
     // Warning: (ae-forgotten-export) The symbol "spinnerSetting" needs to be exported by the entry point index.d.ts
     constructor({ id, color, delay, duration }: spinnerSetting);
-    // (undocumented)
+    // @internal @eventProperty
     protected _animate(svgContainer: SVGSVGElement): Promise<void>;
-    // (undocumented)
+    // @eventProperty
     attachSVG(): Promise<void>;
-    // (undocumented)
     get color(): string;
     set color(value: string);
-    // (undocumented)
     get delay(): number;
     set delay(value: number);
-    // (undocumented)
     get duration(): number;
     set duration(value: number);
-    // (undocumented)
     get htmlId(): string;
     set htmlId(value: string);
 }
-
-// (No @packageDocumentation comment for this package)
 
 ```

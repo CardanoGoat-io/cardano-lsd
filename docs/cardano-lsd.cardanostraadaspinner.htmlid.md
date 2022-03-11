@@ -4,6 +4,8 @@
 
 ## CardaNostraAdaSpinner.htmlId property
 
+Get Element Id.
+
 <b>Signature:</b>
 
 ```typescript
@@ -11,3 +13,12 @@ get htmlId(): string;
 
 set htmlId(value: string);
 ```
+
+## Example
+
+
+```ts
+let spinner = new CardaNostraAdaSpinner({id="element-id"});
+const spinnerId = spinner.htmlId;
+```
+

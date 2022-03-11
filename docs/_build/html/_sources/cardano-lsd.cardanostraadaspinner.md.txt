@@ -4,11 +4,17 @@
 
 ## CardaNostraAdaSpinner class
 
+Create a new ada spinner to attach to SVG.
+
 <b>Signature:</b>
 
 ```typescript
 export declare class CardaNostraAdaSpinner 
 ```
+
+## Remarks
+
+This method is part of the cardano-lsd animation library.
 
 ## Constructors
 
@@ -20,15 +26,14 @@ export declare class CardaNostraAdaSpinner
 
 |  Property | Modifiers | Type | Description |
 |  --- | --- | --- | --- |
-|  [color](./cardano-lsd.cardanostraadaspinner.color.md) |  | string |  |
-|  [delay](./cardano-lsd.cardanostraadaspinner.delay.md) |  | number |  |
-|  [duration](./cardano-lsd.cardanostraadaspinner.duration.md) |  | number |  |
-|  [htmlId](./cardano-lsd.cardanostraadaspinner.htmlid.md) |  | string |  |
+|  [color](./cardano-lsd.cardanostraadaspinner.color.md) |  | string | Get Element Color. |
+|  [delay](./cardano-lsd.cardanostraadaspinner.delay.md) |  | number | Get Animation Delay. |
+|  [duration](./cardano-lsd.cardanostraadaspinner.duration.md) |  | number | Get Animation Duration. |
+|  [htmlId](./cardano-lsd.cardanostraadaspinner.htmlid.md) |  | string | Get Element Id. |
 
 ## Methods
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [\_animate(svgContainer)](./cardano-lsd.cardanostraadaspinner._animate.md) |  |  |
-|  [attachSVG()](./cardano-lsd.cardanostraadaspinner.attachsvg.md) |  |  |
+|  [attachSVG()](./cardano-lsd.cardanostraadaspinner.attachsvg.md) |  | Attach SVG and run animation on CardaNostraAdaSpinner by Element Id. |
 

@@ -4,6 +4,8 @@
 
 ## CardaNostraAdaSpinner.color property
 
+Get Element Color.
+
 <b>Signature:</b>
 
 ```typescript
@@ -11,3 +13,13 @@ get color(): string;
 
 set color(value: string);
 ```
+
+## Example
+
+
+```ts
+let spinner = new CardaNostraAdaSpinner({id="element-id", color:"green"});
+const spinnerColor = spinner.color;
+// green
+```
+
