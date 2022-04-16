@@ -17,7 +17,8 @@
     "changelog": "changelog 'cardano-lsd' all -m -c > ./CHANGELOG.md",
     "markdown": "api-documenter markdown --input-folder ./temp --output-folder ./docs",
     "moveBuildDocs": "cp -r ./theDocFiles/* ./docs",
-    "all": "npm run build && npm run coverage && npm run make-badges && npm run changelog && npm run extractor && npm run markdown && npm run moveBuildDocs && cd docs && make html"
+    "all": "npm run build && npm run coverage && npm run make-badges && npm run changelog && npm run extractor && npm run markdown && npm run moveBuildDocs && cd docs && make html",
+    "docs": "typedoc --theme github-wiki src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -70,6 +71,9 @@
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.31.2",
     "ts-jest": "^27.1.3",
+    "typedoc": "^0.22.15",
+    "typedoc-github-wiki-theme": "^1.0.0",
+    "typedoc-plugin-markdown": "^3.12.0",
     "typescript": "^4.6.2"
   },
   "peerDependencies": {
